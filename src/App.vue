@@ -1,20 +1,24 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <div id="app" class="col">
     <router-view/>
   </div>
 </template>
-
+<script>
+export default {
+  
+}
+</script>
 <style>
+body{
+  background: rgb(31,33,46);
+  background: linear-gradient(180deg, rgba(31,33,46,1) 0%, rgba(31,33,46,1) 28%, rgba(30,32,42,1) 28%);
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: ('https://fonts.google.com/specimen/Inter');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: hsl(228, 34%, 66%);
 }
 
 #nav {
