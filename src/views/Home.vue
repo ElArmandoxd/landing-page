@@ -1,5 +1,5 @@
 <template>
-  <div class="home col-lg-10 col-md-10 mx-auto container">
+  <div class="home col-lg-12 col-md-12 mx-auto container">
     <Header/>
     <br>
     <div class="social_medias row row-cols-1 row-cols-md-5 g-3 justify-content-around">

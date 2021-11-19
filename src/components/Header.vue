@@ -26,7 +26,7 @@ export default {
             let button = document.getElementById('inner-div');
             if(this.toggled == false){
                 button.style.transition = ".4s all ease-in-out";
-                button.style.transform = "translateX(25px)";
+                button.style.transform = "translateX(21px)";
                 this.toggled = true;
             }
             else{
